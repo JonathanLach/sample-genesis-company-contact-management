@@ -1,0 +1,9 @@
+server:
+  address: localhost
+  port: 8443
+  servlet:
+    context-path: /api/v1
+  datasource:
+    url: jdbc:h2:mem:cmm
+    username: me
+    password: changeit
